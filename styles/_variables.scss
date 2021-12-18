@@ -1,0 +1,22 @@
+// Theme Colors
+$sage-green: #ccd5ae;
+$pale-green: #e9edc9;
+$pale-yellow: #fefae0;
+$sand: #fefae0;
+$spice: #d4a373;
+$light-roast: #ede0d4;
+$medium-roast: #b08968;
+$dark-roast: #7f5539;
+$cherry-red: #e63946;
+$deep-blue: #457b9d;
+$medium-blue: #a8dadc;
+
+// Bootstrap Colors, cannot be CSS variables
+$primary: $sage-green;
+$secondary: $pale-green;
+$success: $medium-blue;
+$info: $medium-roast;
+$warning: $spice;
+$danger: $cherry-red;
+$light: $pale-yellow;
+$dark: $dark-roast;

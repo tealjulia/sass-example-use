@@ -14,7 +14,7 @@ import Link from "next/link";
 
 export default function Navigation() {
   return (
-    <header>
+    <header className="header-text">
       <Container>
         <Navbar variant="light" expand="md">
           <Navbar.Brand className="pt-3">
@@ -42,7 +42,7 @@ export default function Navigation() {
               </Nav.Link>
 
               <Nav.Link>
-                <Link href="/ menu">
+                <Link href="/menu">
                   <a className="nav-link" role="button">
                     Menu
                   </a>
@@ -70,16 +70,6 @@ export default function Navigation() {
                 </Link>
               </Nav.Link>
             </Nav>
-            <a
-              href="https://github.com/grouparoo/grouparoo"
-              target="_blank"
-              rel="noreferrer"
-              className="col-sm-12 d-md-none d-lg-inline-block col-lg-1 p-0 mx-lg-1 mx-0 mt-2"
-            >
-              <Button variant="outline-dark" size="sm" className="w-100">
-                <FontAwesomeIcon icon={["fab", "github"]} size="xs" /> Star
-              </Button>
-            </a>
           </Navbar.Collapse>
         </Navbar>
       </Container>

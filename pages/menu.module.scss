@@ -1,0 +1,13 @@
+@use "../styles/_variables" as c;
+@use "../styles/components.scss";
+
+.menuContainer {
+  background-color: c.$medium-blue;
+  padding: 2em;
+}
+
+.menuSubheading {
+  font-weight: 500;
+  font-size: 1.1em;
+  margin-bottom: 0px;
+}

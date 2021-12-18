@@ -1,0 +1,12 @@
+.parallax {
+  min-height: 400px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.cafeImage {
+  background-image: url("/cafe-people.jpeg");
+}
+.pourImage {
+  background-image: url("/coffee-brewing.jpeg");
+}

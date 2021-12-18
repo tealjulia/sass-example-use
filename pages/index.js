@@ -10,13 +10,13 @@ import {
 } from "react-bootstrap";
 import "../components/icons";
 
+import styles from "./index.module.scss";
+
 export default function Home() {
   return (
     <>
-      <Head></Head>
-
       <main>
-        <Image src="/coffee-brewing.jpeg" fluid />
+        <div className={`${styles.parallax} ${styles.pourImage}`} />
         <Jumbotron className="col-8 mt-5 mx-auto">
           <h1>Hello, coffee!</h1>
           <p>
@@ -34,8 +34,8 @@ export default function Home() {
               <Card className="py-5 shadow-lg h-100">
                 <Card.Body>
                   <Card.Title>Single Shot Dark Macchiato</Card.Title>
-                  Grouparoo is open source and free to run in on your own cloud.
-                  <br />
+                  Trifecta id, dripper filter at extraction milk body aroma
+                  body. <br />
                   <br />
                   <p>
                     Dripper acerbic fair trade cream to go percolator breve.
@@ -91,7 +91,7 @@ export default function Home() {
             </Col>
           </Row>
         </Container>
-        <div className="parallax paralsec" />
+        <div className={`${styles.parallax} ${styles.cafeImage}`} />
         <Container>
           <div className="mt-3 p-3 mx-auto">
             <h2>Cafe au Lait</h2>

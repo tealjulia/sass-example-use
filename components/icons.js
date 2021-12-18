@@ -5,7 +5,6 @@ import { faBuilding } from "@fortawesome/free-solid-svg-icons";
 
 import { faChalkboardTeacher } from "@fortawesome/free-solid-svg-icons";
 import { faConciergeBell } from "@fortawesome/free-solid-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faSun } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faBuilding, faChalkboardTeacher, faConciergeBell, faGithub, faSun);
+library.add(faBuilding, faChalkboardTeacher, faConciergeBell, faSun);
